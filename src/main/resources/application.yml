@@ -5,7 +5,7 @@ zuul:
       path: /**
       url: http://user-register-ms:8080
     user-token-auth:
-      path: /token/**
+      path: /auth/**
       url: http://user-token-auth-ms:8080
     test:
       path: /redirect/**

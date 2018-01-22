@@ -10,9 +10,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 @Component
-public class CountryGatewayAccessLogFilter extends ZuulFilter {
+public class AccessLogFilter extends ZuulFilter {
 
-    private Logger logger = LoggerFactory.getLogger(CountryGatewayAccessLogFilter.class);
+    private Logger logger = LoggerFactory.getLogger(AccessLogFilter.class);
 
     @Override
     public String filterType() {
