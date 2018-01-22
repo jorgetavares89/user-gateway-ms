@@ -13,6 +13,3 @@ zuul:
 ribbon:
   eureka:
     enabled: false
-# payment-methods:
-#   ribbon:
-#     listOfServers: localhost:8081
